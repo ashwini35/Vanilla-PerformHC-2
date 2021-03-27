@@ -73,7 +73,7 @@ public class BaseClass {
 		// This new path for jenkins
 		String newImageString = "http://localhost:8082/job/Demo4/ws/ExtentDemo/ScreenShot/" + filename + "_"
 				+ dateName + ".png";
-		System.out.println(" -----------coming for screenshot end-----");
+		System.out.println(" <-----------coming for screenshot end----->");
 
 		return newImageString;
 	}
